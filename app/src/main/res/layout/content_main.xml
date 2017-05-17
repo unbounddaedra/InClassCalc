@@ -8,9 +8,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:layout_above="@+id/number2"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginTop="63dp" />
 
     <EditText
         android:id="@+id/number2"
@@ -18,18 +18,19 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:layout_marginBottom="41dp"
-        android:layout_above="@+id/Calculate"
+        android:layout_below="@+id/number1"
         android:layout_alignLeft="@+id/number1"
-        android:layout_alignStart="@+id/number1" />
+        android:layout_alignStart="@+id/number1"
+        android:layout_marginTop="19dp" />
 
     <Button
         android:id="@+id/Calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_below="@+id/number2"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Calculate" />
+        android:layout_marginTop="22dp" />
 
     <TextView
         android:id="@+id/Result"

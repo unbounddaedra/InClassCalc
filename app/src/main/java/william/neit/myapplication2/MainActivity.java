@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        number1 = (EditText)findViewById(R.id.number1);
+        number2 = (EditText)findViewById(R.id.number2);
     }
 
     @Override
